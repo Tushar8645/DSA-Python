@@ -1,3 +1,17 @@
+"""
+Queue with fixed capacity (Circular Queue)
+
+Queue Operations
+- Create Queue
+- Enqueue
+- Dequeue
+- Peek
+- isEmpty
+- isFull
+- Delete
+"""
+
+
 class Queue:
     def __init__(self, max_size):
         self.items = max_size * [None]
